@@ -31,13 +31,13 @@ document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
    5. Replace the three placeholder values below with your real IDs
    ─────────────────────────────────────────────────────────── */
 
-const EMAILJS_PUBLIC_KEY  = 'NO0rqmDpuVy6x7h1k';       // e.g. 'abc123XYZ'
-const EMAILJS_SERVICE_ID  = 'service_qwj3wt6';       // e.g. 'service_abc123'
-const EMAILJS_TEMPLATE_ID = 'template_71hlafm';      // e.g. 'template_abc123'
+const EMAILJS_PUBLIC_KEY  = 'NO0rqmDpuVy6x7h1k';       
+const EMAILJS_SERVICE_ID  = 'service_qwj3wt6';       
+const EMAILJS_TEMPLATE_ID = 'template_71hlafm';      
 
 /* Initialise EmailJS with your public key */
 (function () {
-  emailjs.init(EMAILJS_PUBLIC_KEY);
+  emailjs.init(NO0rqmDpuVy6x7h1k);
 })();
 
 /* Form submit handler */
