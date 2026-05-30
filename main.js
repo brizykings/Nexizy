@@ -17,20 +17,6 @@ const observer = new IntersectionObserver(
 
 document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
 
-/* ── EMAILJS CONTACT FORM ──────────────────────────────────────
-   Service:  Gmail → supportnexizytech@gmail.com
-   Steps to activate (one-time setup, free):
-   1. Go to https://www.emailjs.com and create a free account
-   2. Add a Gmail service → connect supportnexizytech@gmail.com
-      → copy the Service ID (looks like "service_xxxxxx")
-   3. Create an Email Template with these variables:
-        {{from_name}}   {{from_email}}
-        {{project_type}} {{message}}
-      → copy the Template ID (looks like "template_xxxxxx")
-   4. Go to Account → API Keys → copy your Public Key
-   5. Replace the three placeholder values below with your real IDs
-   ─────────────────────────────────────────────────────────── */
-
 const EMAILJS_PUBLIC_KEY  = 'NO0rqmDpuVy6x7h1k';       
 const EMAILJS_SERVICE_ID  = 'service_qwj3wt6';       
 const EMAILJS_TEMPLATE_ID = 'template_71hlafm';      
